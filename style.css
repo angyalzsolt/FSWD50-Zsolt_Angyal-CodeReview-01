@@ -35,18 +35,28 @@ body {
 	text-decoration: none;
 }
 
+.navbar a:hover {
+	border: 2px solid #EDEDED;
+    border-radius: 25px;
+    padding: 5px;
+}
+
 .toptext p {
 	font-size: 75px;
 	text-align: center;
 	font-weight: bold;
 }
 
-.postbar  {
+.titlebar  {
 	background-color: #978484;
 	font-size: 25px;
 	color: white;
 	line-height: 30px;
 	margin-bottom: 0;
+}
+
+.titlebar p {
+	padding-left: 10px;
 }
 
 .postone {
@@ -102,8 +112,48 @@ hr {
 }
 
 .navbar a:hover {
-	background-color: black;
 	border: 2px solid #EDEDED;
     border-radius: 25px;
     padding: 5px;
+}
+
+.data {
+	background-color: lightgray;
+	border-radius: 5px;
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.data input[type="text"] {
+	width: 50%;
+	padding: 20px;
+	margin: 8px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.data p {
+	padding: 10px;
+	margin: 8px;
+}
+
+.data textarea {
+	width: 50%;
+	padding: 20px;
+	margin: 8px;
+	border-radius: 5px;
+	font-size: 15px;
+	resize: none;
+}
+
+.data input[type="submit"] {
+	width: 53%;
+	padding: 20px;
+	margin: 8px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #653D3D;
+	color: white;
 }
